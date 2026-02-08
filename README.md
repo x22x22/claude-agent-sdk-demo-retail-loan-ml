@@ -104,12 +104,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-浏览器打开 `http://localhost:7860`，在输入框用自然语言操作，例如：
-
-- 「加载数据」
-- 「训练模型」
-- 「给客户 1 推荐 5 个产品」
-- 「预测客户 1 对产品 100 的贷款意愿」
+浏览器打开 `http://localhost:7860`即可
 
 ### 5. 命令行对话（不启动 UI）
 
@@ -134,7 +129,7 @@ Agent 的 system_prompt 约定其仅通过以下 MCP 工具与业务交互（见
 | `predict_propensity` | 预测客户对某产品的意愿概率，参数：`user_id`, `item_id` |
 | `similar_items` | 相似产品，参数：`item_id`，可选 `top_k` |
 
-推荐流程：先让用户说「加载数据」→ 再「训练模型」→ 再说「给客户 x 推荐 y 个产品」等。
+
 
 ## 技术说明
 
