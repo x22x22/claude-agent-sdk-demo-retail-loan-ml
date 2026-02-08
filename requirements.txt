@@ -1,0 +1,20 @@
+# Claude Agent SDK（Ollama + 自定义 MCP 工具）
+claude-agent-sdk>=0.1.0
+
+# 异步
+anyio>=4.0.0
+
+# Web UI
+gradio>=4.0.0
+
+# 环境
+python-dotenv>=1.0.0
+
+# 数据与模型依赖
+streamlit>=1.38.0
+pandas>=2.1.4
+scikit-learn>=1.4.2
+numpy>=1.26.4
+altair>=5.2.0
+recommenders>=1.2.1
+plotly>=5.0.0
